@@ -13,9 +13,6 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>BootDemoApp</name>
     <description>BootDemoApp</description>
-    <properties>
-        <java.version>16</java.version>
-    </properties>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -49,6 +46,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
+        <finalName>BootDemoApp</finalName>
     </build>
 
 </project>
